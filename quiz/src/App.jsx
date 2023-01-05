@@ -1,13 +1,19 @@
+// react imports
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import React from 'react'
+
+// components imports
+import Welcome from './components/Welcome'
+
+// general imports
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+function App() {  
   return (
     <div className="App">
       <h1>Quiz App</h1>
+      <Welcome />
     </div>
   )
 }
