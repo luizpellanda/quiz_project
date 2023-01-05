@@ -1,5 +1,5 @@
 // react imports
-import { useState, useContext } from 'react'
+import { useState, useContext, useEffect } from 'react'
 import React from 'react'
 
 
@@ -16,6 +16,10 @@ import './App.css'
 function App() {
   const [quizState, dispatch] = useContext(QuizContext);
   
+  useEffect(() => {
+    dispatch({type: 'REORDER_QUESTIONS'})
+  }, []);
+
   return (
     <div className="App">
       <h1>Quiz App</h1>
