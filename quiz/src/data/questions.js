@@ -1,34 +1,96 @@
 const data = [
     {
-      question: "O que é Vanilla JavaScript?",
+      question: "Inside which HTML element do we put the JavaScript?",
       options: [
-        "JavaScript puro",
-        "Uma biblioteca JavaScript",
-        "Um framework JavaScript",
-        "Um compilador de JavaScript",
+        "<scripting>",
+        "<javascript>",
+        "<script>",
+        "<js>",
       ],
-      answer: "JavaScript puro",
+      answer: "<script>",
     },
     {
-      question: "Com qual instrução declaramos uma constante em JavaScript?",
+      question: "How do we declare a JavaScript constant?",
       options: ["const", "let", "var", "define"],
       answer: "const",
     },
     {
-      question: "Qual dos tipos de dado a seguir não existe em JavaScript?",
-      options: ["string", "number", "boolean", "float"],
-      answer: "float",
+      question: "What is the correct JavaScript syntax to change the content of the following HTML element: <p id='demo'>This is a demonstration.</p>",
+      options: [
+        "#demo.innerHTML = 'Hello World!'", 
+        "document.getElementById('demo').innerHTML = 'Hello World!'", 
+        "document.getElementByName('p').innerHTML = 'Hello World!'", 
+        "document.getElement('p').innerHTML = 'Hello World!'"],
+      answer: "document.getElementById('demo').innerHTML = 'Hello World!'",
     },
     {
-      question: "Qual dos métodos a seguir seleciona um elemento?",
-      options: ["querySelector", "parseInt", "sort", "reduce"],
-      answer: "querySelector",
+      question: "How do you write 'Hello World' in an alert box?",
+      options: [
+        "alert('Hello World')", 
+        "alertBox('Hello World')", 
+        "msgBox('Hello World')", 
+        "msg('Hello World')"],
+      answer: "alert('Hello World')",
     },
     {
       question:
-        "Qual destas propriedades da a quantidade de elementos de um array?",
-      options: ["qty", "length", "items", "index"],
-      answer: "length",
+        "How do you create a function in JavaScript?",
+      options: [
+        "function = myFunction()", 
+        "function:myFunction()", 
+        "function: myfunction()", 
+        "function myFunction()"],
+      answer: "function = myFunction()",
+    },
+    {
+      question:
+        "How do you call a function named 'myFunction'?",
+      options: [
+        "call myFunction()", 
+        "call function myFunction()", 
+        "myFunction", 
+        "pleaseCome myFunction()"],
+      answer: "myFunction()",
+    },
+    {
+      question:
+        "How to write an IF statement in JavaScript?",
+      options: [
+        "if i = 5", 
+        "if i == 5 then", 
+        "if (i = 5) then", 
+        "if (i === 5)"],
+      answer: "if (i === 5)",
+    },
+    {
+      question:
+        "How does a FOR loop start?",
+      options: [
+        "for (let i = 0; i <= 5; i++)", 
+        "for (i <= 5, i++)", 
+        "for (i = 0; i >= 5)", 
+        "for (let i = 0, i <= 5, i++)"],
+      answer: "for (let i = 0; i <= 5; i++)",
+    },
+    {
+      question:
+        "How can you add a comment in a JavaScript?",
+      options: [
+        "'This is a comment'", 
+        "*This is a comment*", 
+        "//This is a comment", 
+        "<!--This is a Comment-->"],
+      answer: "//This is a comment",
+    },
+    {
+      question:
+        "What is the correct way to write a JavaScript array?",
+      options: [
+        "var colors = 1 = ('red'), 2 = ('green'), 1 = ('blue');", 
+        "var colors = 'red', 'green', 'blue';", 
+        "var colors = {'red', 'green', 'blue'}", 
+        "var colors = ['red', 'green', 'blue']"],
+      answer: "var colors = ['red', 'green', 'blue']",
     },
   ];
   
