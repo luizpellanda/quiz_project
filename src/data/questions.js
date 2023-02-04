@@ -47,7 +47,7 @@ const data = [
         "How do you call a function named 'myFunction'?",
       options: [
         "call myFunction()", 
-        "call function myFunction()", 
+        "myFunction()", 
         "myFunction", 
         "pleaseCome myFunction()"],
       answer: "myFunction()",
